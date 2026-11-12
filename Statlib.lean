@@ -1,5 +1,10 @@
 import Statlib.Causal.PotentialResponse
 import Statlib.Contiguity.Def
+import Statlib.Divergence.AlphaBetaLeakage.Basic
+import Statlib.Divergence.AlphaLeakage.Basic
+import Statlib.Divergence.AlphaLeakage.Maximal
+import Statlib.Divergence.AlphaLeakage.Operational
+import Statlib.Divergence.AlphaLeakage.Properties
 import Statlib.Divergence.BretagnolleHuber
 import Statlib.Divergence.Chernoff
 import Statlib.Divergence.Chernoff.Prod
@@ -23,6 +28,7 @@ import Statlib.Divergence.FDiv.Measurable
 import Statlib.Divergence.FDiv.SupRatio
 import Statlib.Divergence.FDiv.Trim
 import Statlib.Divergence.FDiv.TrimApprox
+import Statlib.Divergence.GainLeakage.Basic
 import Statlib.Divergence.Hellinger.Basic
 import Statlib.Divergence.Hellinger.CondHellinger
 import Statlib.Divergence.Hellinger.HellingerDivFun
@@ -56,6 +62,7 @@ import Statlib.Divergence.Renyi.Order.Limits
 import Statlib.Divergence.Renyi.Prod
 import Statlib.Divergence.Renyi.ProdCountable
 import Statlib.Divergence.Renyi.Variational
+import Statlib.Divergence.RenyiInfinity.Basic
 import Statlib.Divergence.StatInfo.Basic
 import Statlib.Divergence.StatInfo.CurvatureMeasure
 import Statlib.Divergence.StatInfo.Event
@@ -141,6 +148,7 @@ import Statlib.ForMathlib.Probability.StrongLaw
 import Statlib.ForMathlib.Topology.Order.MonotoneConvergence
 import Statlib.Inference.Inference
 import Statlib.Inference.QMD
+import Statlib.Privacy.DPHamming.Basic
 import Statlib.Testing.Binary
 import Statlib.Testing.BinaryRenyi
 import Statlib.Testing.ChangeMeasure
