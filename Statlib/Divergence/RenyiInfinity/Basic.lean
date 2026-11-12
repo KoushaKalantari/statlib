@@ -70,8 +70,8 @@ Appendix A (the gain `g = log`, which is not covered by Theorem 1).
 
 * Distributions are `Measure`s on finite types with measurable singletons and channels are
   Markov `Kernel`s, as in `Statlib.Divergence.MaximalLeakage`. Values are in `ℝ≥0∞`;
-  `P(x) / Q(x)` uses the conventions `p / 0 = ∞` for `p ≠ 0` and `0 / 0 = 0`, so that `expRenyiDivInf P Q` is the
-  maximum over the support of `P`, and is `∞` exactly when `P` is not absolutely continuous with
+  `P(x) / Q(x)` uses the conventions `p / 0 = ∞` for `p ≠ 0` and `0 / 0 = 0`, so that
+  `expRenyiDivInf P Q` is the maximum over the support of `P`, and is `∞` exactly when `P` is not absolutely continuous with
   respect to `Q`, as in the paper.
 * The supremum over channels `P_{U|X}` ranges over all alphabets `Fin n`, which covers every
   finite alphabet up to relabelling. For a one-letter alphabet both expected gains equal `g 1`;

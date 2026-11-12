@@ -30,7 +30,8 @@ We take these closed forms as definitions; the variational characterization
 `I^S_a(X; Y) = min_{Q_Y} D_a(P_{X,Y} ‖ P_X × Q_Y)` of their eq. (6) and the decomposition
 `I^A_a = H_a(X) - H^A_a(X | Y)` of their eq. (8) are not formalized. As in
 `Statlib.Divergence.MaximalLeakage.Basic`, the definitions come in an `ℝ≥0∞`-valued
-multiplicative form (`sibsonSum`, `arimotoSum`) and a real logarithmic form in nats (`sibsonMI`, `arimotoMI`).
+multiplicative form (`sibsonSum`, `arimotoSum`) and a real logarithmic form in nats
+(`sibsonMI`, `arimotoMI`).
 
 ## Main definitions
 
